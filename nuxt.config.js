@@ -1,6 +1,6 @@
 export default {
     target: "server",
-    ssr: false,
+    ssr: true,
     head: {
         title: "Send Nudes",
         htmlAttrs: {
