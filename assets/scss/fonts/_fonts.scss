@@ -1,0 +1,24 @@
+@mixin menco-ultra-light {
+    font-family: "menco", sans-serif;
+    font-weight: 200;
+}
+
+@mixin menco-light {
+    font-family: "menco", sans-serif;
+    font-weight: 300;
+}
+
+@mixin menco-regular {
+    font-family: "menco", sans-serif;
+    font-weight: 500;
+}
+
+@mixin menco-semi-bold {
+    font-family: "menco", sans-serif;
+    font-weight: 600;
+}
+
+@mixin menco-bold {
+    font-family: "menco", sans-serif;
+    font-weight: 800;
+}

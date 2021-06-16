@@ -1,0 +1,67 @@
+.--button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+
+    &:hover {cursor: pointer}
+    &:focus {outline: none}
+}
+
+.--scrollable {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+    &::-webkit-scrollbar {display: none;}
+}
+
+.--overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba($black, .4);
+}
+.--background {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    z-index: -1;
+}
+
+.--deconnection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $white;
+
+    z-index: 8;
+
+    p {
+        margin-bottom: 10px;
+
+        @include menco-light;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h3{
+        @include menco-regular;
+        font-size: 4rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+a {text-decoration: none}
