@@ -1,6 +1,6 @@
 export default {
-    mode: "universal",
-    ssr: true,
+    target: "server",
+    ssr: false,
     head: {
         title: "Send Nudes",
         htmlAttrs: {
@@ -50,7 +50,7 @@ export default {
         scss: ["~assets/scss/*.scss"]
     },
     axios: {
-        baseURL: "https://send-nudes.herokuapp.com"
+        baseURL: "https://send-nudes-back.herokuapp.com"
     },
     build: {
         loaders: {
